@@ -53,21 +53,21 @@ section {
     margin-top: 200px;
 }
 
-#nome-foto {
+.foto {
     margin-left: -10px;
     margin-right: 250px;
     border-top-right-radius: 150px;
     border-bottom-right-radius: 150px;
 }
 
-#descricao {
+.sobre {
     margin-left: 250px;
     margin-right: -8px;
     border-top-left-radius: 150px;
     border-bottom-left-radius: 150px;
 }
 
-#skills {
+.skills {
     margin-left: -10px;
     margin-right: 250px;
     border-top-right-radius: 100px;
