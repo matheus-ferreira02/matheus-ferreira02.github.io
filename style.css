@@ -44,20 +44,37 @@ li a:hover {
     border-color: #000;
 }
 
-#nome-foto {
+section {
     text-align: center;
     background-color: #393E41;
     padding: 50px;
     margin-top: 200px;
+}
+
+#nome-foto {
     margin-left: -10px;
-    margin-right: 300px;
+    margin-right: 250px;
     border-top-right-radius: 150px;
     border-bottom-right-radius: 150px;
 }
 
+#descricao {
+    margin-left: 250px;
+    margin-right: -8px;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+}
+
+#skills {
+    margin-left: -10px;
+    margin-right: 250px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
 #perfil {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-top: 10px solid #44BBA4;
     border-right: 10px solid #E7BB41;
     border-bottom: 10px solid #44BBA4;
@@ -69,6 +86,41 @@ li a:hover {
     margin: auto;
 }
 
-h2, p {
-    color: white
+#trybe-logo {
+    width: 120px;
+    height: 120px;
+    border-top: 10px solid #44BBA4;
+    border-right: 10px solid #E7BB41;
+    border-bottom: 10px solid #44BBA4;
+    border-left: 10px solid #E7BB41;
+    border-radius: 50%;
+    margin: auto;
+    margin: 50px;
+}
+
+h2{
+    color:#E7BB41;
+}
+
+p {
+    color: white;
+    margin: 20px;
+}
+
+#bold {
+    color: #44BBA4;
+}
+
+#rodape{
+    text-align: center;
+    margin: 200px -8px -10px -10px;
+    background-color: #393E41;
+}
+
+#rodape img {
+    margin: auto;
+    margin: 20px;
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 70px;
 }
