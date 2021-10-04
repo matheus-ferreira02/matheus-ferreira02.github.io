@@ -105,6 +105,8 @@ h2{
 p {
     color: white;
     margin: 20px;
+    line-height: 180%;
+    font-size: 130%;
 }
 
 #bold {
