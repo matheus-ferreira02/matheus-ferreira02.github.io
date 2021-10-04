@@ -1,11 +1,12 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #D3D0CB;
 }
 
-#topo {
+.topo {
     background: #44BBA4;
     padding: 20px;
     text-align: center;
@@ -16,30 +17,31 @@ body {
 /** Consultei o codigo do menu nesse site: 
 Site: https://www.yesbr.com.br/dicas-e-tutoriais/criando-menu-em-html-com-css/#:~:text=Criando%20o%20menu%20em%20HTML,HTML%2C%20com%20o%20seguinte%20c%C3%B3digo.&text=Lembrando%20que%20este%20c%C3%B3digo%20deve,%2Fbody%3E%20de%20sua%20p%C3%A1gina.*/
 
-#menu{
+.menu{
     text-align: center;
     background: #E7BB41;
     padding: 20px;
     margin: 0px -8px 0px -10px;
 }
 
-#menu li {
+.menu li {
     list-style: none;
     margin: 10px;
     display: inline;
 }
 
 li a {
+    box-shadow: #282c2e;
     padding: 10px 20px;
     margin: 0;
-    background: #393E41;
+    background: #393e41;
     text-decoration: none;
     color: #FFF;
     border-radius: 15px;
 }
 
 li a:hover {
-    background: #CCC;
+    background: #4a5155;
     color: #000;
     border-color: #000;
 }
@@ -72,7 +74,7 @@ section {
     border-bottom-right-radius: 100px;
 }
 
-#perfil {
+.perfil {
     width: 250px;
     height: 250px;
     border-top: 10px solid #44BBA4;
@@ -86,7 +88,7 @@ section {
     margin: auto;
 }
 
-#trybe-logo {
+.trybe-logo {
     width: 120px;
     height: 120px;
     border-top: 10px solid #44BBA4;
@@ -109,17 +111,17 @@ p {
     font-size: 130%;
 }
 
-#bold {
+.bold {
     color: #44BBA4;
 }
 
-#rodape{
+.rodape{
     text-align: center;
     margin: 200px -8px -10px -10px;
     background-color: #393E41;
 }
 
-#rodape img {
+.rodape img {
     margin: auto;
     margin: 20px;
     border: 5px solid white;
