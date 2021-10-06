@@ -1,6 +1,11 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Montserrat, Geneva, Tahoma, sans-serif;
     background-color: #D3D0CB;
@@ -10,7 +15,7 @@ body {
     background: #44BBA4;
     padding: 20px;
     text-align: center;
-    margin: -10px -8px 0px -10px;
+    margin: -10px 0px 0px -10px;
     color: white;
 }
 
@@ -21,7 +26,6 @@ Site: https://www.yesbr.com.br/dicas-e-tutoriais/criando-menu-em-html-com-css/#:
     text-align: center;
     background: #E7BB41;
     padding: 20px;
-    margin: 0px -8px 0px -10px;
 }
 
 .menu li {
@@ -62,7 +66,7 @@ section {
 
 .sobre {
     margin-left: 250px;
-    margin-right: -8px;
+    margin-right: 0px;
     border-top-left-radius: 150px;
     border-bottom-left-radius: 150px;
 }
@@ -83,9 +87,10 @@ section {
     border-left: 10px solid #E7BB41;
     border-radius: 50%;
     background-image: url(images/perfil-pequena.jpg);
-    background-position: center;
+    background-position: 35% 55%;
     background-size: 150%;
     margin: auto;
+    margin-top: 20px;
 }
 
 .trybe-logo {
@@ -117,7 +122,7 @@ p {
 
 .rodape{
     text-align: center;
-    margin: 200px -8px -10px -10px;
+    margin: 200px 0 -10px;
     background-color: #393E41;
 }
 
