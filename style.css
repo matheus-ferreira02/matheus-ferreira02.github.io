@@ -23,9 +23,6 @@
   padding: 5px 0;
 }
 
-.menu {  
-}
-
 .menu ul {
   display: flex;
   list-style: none;
@@ -109,10 +106,68 @@ h2 {
   font-size: 0.9rem;
 }
 
-.skills strong {
-  font-size: 0.9rem;
+.skills h2 {
+  margin: 30px 0 20px;
+}
+
+.html, .css, .javascript {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#text-html, #text-css, #text-js {
+  display: none;
+}
+
+.skills .fab {
+  font-size: 50px;
+}
+
+.fa-html5 {
+  background-color: orange;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.fa-css3-alt {
+  background-color: #379AD6;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.skills .fa-js-square {
+  background-color: #F7E018;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 40px;
+}
+
+.skills .fa-angle-down {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.skills button {
   text-transform: uppercase;
-  color: #44bba4;
+  margin-top: 10px;
+  border: none;
+  background-color: #393e41;
+  color: #d3d0cb;
+}
+
+.skills button i {
+  margin-left: 10px;
+}
+
+.skills p {
+  padding: 20px 0;
+  transform: 3s;
 }
 
 .rodape {
