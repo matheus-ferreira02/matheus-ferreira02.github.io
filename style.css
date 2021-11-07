@@ -15,7 +15,7 @@
 }
 
 .cabecalho h1 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   background-color: #44bba4;
   text-align: center;
@@ -29,7 +29,7 @@
   justify-content: space-evenly;
   background-color: #e7bb41;
   padding: 7px 0;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
 .cabecalho ul li a {
@@ -103,14 +103,16 @@ h2 {
 .skills p {
   text-align: justify;
   max-width: 80%;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .skills h2 {
   margin: 30px 0 20px;
 }
 
-.html, .css, .javascript {
+.html,
+.css,
+.javascript {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,7 +120,9 @@ h2 {
   margin-bottom: 20px;
 }
 
-#text-html, #text-css, #text-js {
+#text-html,
+#text-css,
+#text-js {
   display: none;
 }
 
@@ -134,14 +138,14 @@ h2 {
 }
 
 .fa-css3-alt {
-  background-color: #379AD6;
+  background-color: #379ad6;
   padding: 10px;
   border-radius: 5px;
   color: white;
 }
 
 .skills .fa-js-square {
-  background-color: #F7E018;
+  background-color: #f7e018;
   padding: 10px;
   border-radius: 5px;
   color: white;
@@ -194,4 +198,172 @@ h2 {
   font-size: 0.9rem;
   margin: 10px;
   text-align: center;
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .cabecalho h1 {
+    font-size: 1.5rem;
+  }
+
+  .cabecalho ul li a {
+    font-size: 0.9rem;
+  }
+
+  .perfil p {
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .foto {
+    width: 250px;
+    height: 250px;
+  }
+
+  .sobre p,
+  .skills p {
+    font-size: 1.1rem;
+  }
+
+  .skills button {
+    font-size: 1.1rem;
+  }
+
+  .redes i {
+    font-size: 30px;
+  }
+
+  .rodape p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .cabecalho h1 {
+    font-size: 1.7rem;
+  }
+
+  .cabecalho ul li a {
+    font-size: 1.1rem;
+  }
+
+  .perfil p {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .foto {
+    width: 300px;
+    height: 300px;
+  }
+
+  .sobre p,
+  .skills p {
+    font-size: 1.4rem;
+  }
+
+  .skills button {
+    font-size: 1.4rem;
+  }
+
+  .redes i {
+    font-size: 35px;
+  }
+
+  .rodape p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .cabecalho h1 {
+    font-size: 2rem;
+  }
+
+  .cabecalho ul li a {
+    font-size: 1.3rem;
+  }
+
+  .perfil p {
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .foto {
+    width: 350px;
+    height: 350px;
+  }
+
+  .sobre p,
+  .skills p {
+    font-size: 1.6rem;
+  }
+
+  .skills button {
+    font-size: 1.6rem;
+  }
+
+  .redes i {
+    font-size: 40px;
+  }
+
+  .rodape p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cabecalho h1 {
+    font-size: 2.2rem;
+  }
+
+  .cabecalho ul li a {
+    font-size: 1.3rem;
+  }
+
+  .perfil p {
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  .foto {
+    width: 370px;
+    height: 370px;
+  }
+
+  .perfil,
+  .sobre,
+  .skills {
+    min-height: 70vh;
+  }
+
+  .sobre p,
+  .skills p {
+    font-size: 1.7rem;
+    width: 60%;
+  }
+
+  .skills button {
+    font-size: 1.7rem;
+  }
+
+  .redes i {
+    font-size: 40px;
+  }
+
+  .rodape p {
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+  }
 }
