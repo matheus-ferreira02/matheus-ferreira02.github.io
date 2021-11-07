@@ -287,6 +287,12 @@ h2 {
     font-size: 1.3rem;
   }
 
+  .perfil,
+  .sobre,
+  .skills {
+    min-height: 80vh;
+  }
+
   .perfil p {
     font-size: 1.3rem;
   }
@@ -343,7 +349,7 @@ h2 {
   .perfil,
   .sobre,
   .skills {
-    min-height: 70vh;
+    min-height: 80vh;
   }
 
   .sobre p,
@@ -365,3 +371,4 @@ h2 {
     padding-bottom: 20px;
   }
 }
+
