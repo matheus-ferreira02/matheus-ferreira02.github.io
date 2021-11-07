@@ -23,13 +23,16 @@
   padding: 5px 0;
 }
 
+.menu {  
+}
+
 .menu ul {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
   background-color: #e7bb41;
   padding: 7px 0;
-  text-transform: uppercase;
+  text-transform: uppercase;  
 }
 
 .cabecalho ul li a {
@@ -47,21 +50,25 @@
 .cabecalho ul li a:visited,
 a:hover,
 a:active {
-  color: inherit;
+  color: #393e41;
+  opacity: 0.7;
 }
 
 h2 {
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
-.perfil, .sobre, .skills {
+.perfil,
+.sobre,
+.skills {
   min-height: 60vh;
   justify-content: space-evenly;
   display: flex;
   flex-direction: column;
 }
 
-.perfil, .skills {  
+.perfil,
+.skills {
   align-items: center;
   background-color: #393e41;
   color: #d3d0cb;
@@ -95,18 +102,41 @@ h2 {
   color: #393e41;
 }
 
-.sobre p, .skills p {
+.sobre p,
+.skills p {
   text-align: justify;
   max-width: 80%;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
-.skills strong{
-  font-size: .9rem;
+.skills strong {
+  font-size: 0.9rem;
   text-transform: uppercase;
   color: #44bba4;
 }
 
-img {
-  width: 100px;
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #191c1d;
+  padding: 20px 0;
+  color: #d3d0cb;
+}
+
+.redes a {
+  text-decoration: none;
+}
+
+.redes i {
+  padding: 0 20px;
+  color: #44bba4;
+  font-size: 25px;
+}
+
+.rodape p {
+  font-size: 0.9rem;
+  margin: 10px;
+  text-align: center;
 }
