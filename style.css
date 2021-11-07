@@ -1,135 +1,112 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Montserrat, Geneva, Tahoma, sans-serif;
 }
 
-body {
-    font-family: Montserrat, Geneva, Tahoma, sans-serif;
-    background-color: #D3D0CB;
+.cabecalho {
+  display: flex;
+  flex-direction: column;
 }
 
-.topo {
-    background: #44BBA4;
-    padding: 20px;
-    text-align: center;
-    margin: -10px 0px 0px -10px;
-    color: white;
+.cabecalho h1 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  background-color: #44bba4;
+  text-align: center;
+  color: white;
+  padding: 5px 0;
 }
 
-/** Consultei o codigo do menu nesse site: 
-Site: https://www.yesbr.com.br/dicas-e-tutoriais/criando-menu-em-html-com-css/#:~:text=Criando%20o%20menu%20em%20HTML,HTML%2C%20com%20o%20seguinte%20c%C3%B3digo.&text=Lembrando%20que%20este%20c%C3%B3digo%20deve,%2Fbody%3E%20de%20sua%20p%C3%A1gina.*/
-
-.menu{
-    text-align: center;
-    background: #E7BB41;
-    padding: 20px;
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  background-color: #e7bb41;
+  padding: 7px 0;
+  text-transform: uppercase;
 }
 
-.menu li {
-    list-style: none;
-    margin: 10px;
-    display: inline;
+.cabecalho ul li a {
+  text-decoration: none;
+  color: #393e41;
+  opacity: 0.7;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
-li a {
-    box-shadow: #282c2e;
-    padding: 10px 20px;
-    margin: 0;
-    background: #393e41;
-    text-decoration: none;
-    color: #FFF;
-    border-radius: 15px;
+.cabecalho ul li a:hover {
+  opacity: 1;
 }
 
-li a:hover {
-    background: #4a5155;
-    color: #000;
-    border-color: #000;
+.cabecalho ul li a:visited,
+a:hover,
+a:active {
+  color: inherit;
 }
 
-section {
-    text-align: center;
-    background-color: #393E41;
-    padding: 50px;
-    margin-top: 200px;
+h2 {
+  text-transform: uppercase; 
+}
+
+.perfil, .sobre, .skills {
+  min-height: 60vh;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+
+.perfil, .skills {  
+  align-items: center;
+  background-color: #393e41;
+  color: #d3d0cb;
+}
+
+.perfil p {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 15px;
 }
 
 .foto {
-    margin-left: -10px;
-    margin-right: 250px;
-    border-top-right-radius: 150px;
-    border-bottom-right-radius: 150px;
+  width: 200px;
+  height: 200px;
+  border-top: 5px solid #44bba4;
+  border-right: 5px solid #e7bb41;
+  border-bottom: 5px solid #44bba4;
+  border-left: 5px solid #e7bb41;
+  border-radius: 50%;
+  background-image: url(images/perfil-pequena.jpg);
+  background-position: 35% 55%;
+  background-size: 150%;
+  margin: auto;
+  margin-top: 15px;
 }
 
 .sobre {
-    margin-left: 250px;
-    margin-right: 0px;
-    border-top-left-radius: 150px;
-    border-bottom-left-radius: 150px;
+  align-items: center;
+  background-color: #d3d0cb;
+  padding: 0 5px;
+  color: #393e41;
 }
 
-.skills {
-    margin-left: -10px;
-    margin-right: 250px;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
+.sobre p, .skills p {
+  text-align: justify;
+  max-width: 80%;
+  font-size: .9rem;
 }
 
-.perfil {
-    width: 250px;
-    height: 250px;
-    border-top: 10px solid #44BBA4;
-    border-right: 10px solid #E7BB41;
-    border-bottom: 10px solid #44BBA4;
-    border-left: 10px solid #E7BB41;
-    border-radius: 50%;
-    background-image: url(images/perfil-pequena.jpg);
-    background-position: 35% 55%;
-    background-size: 150%;
-    margin: auto;
-    margin-top: 20px;
+.skills strong{
+  font-size: .9rem;
+  text-transform: uppercase;
+  color: #44bba4;
 }
 
-.trybe-logo {
-    width: 120px;
-    height: 120px;
-    border-top: 10px solid #44BBA4;
-    border-right: 10px solid #E7BB41;
-    border-bottom: 10px solid #44BBA4;
-    border-left: 10px solid #E7BB41;
-    border-radius: 50%;
-    margin: auto;
-    margin: 50px;
-}
-
-h2{
-    color:#E7BB41;
-}
-
-p {
-    color: white;
-    margin: 20px;
-    line-height: 180%;
-    font-size: 130%;
-}
-
-.bold {
-    color: #44BBA4;
-}
-
-.rodape{
-    text-align: center;
-    margin: 200px 0 -10px;
-    background-color: #393E41;
-}
-
-.rodape img {
-    margin: auto;
-    margin: 20px;
-    border: 5px solid white;
-    border-radius: 50%;
-    width: 70px;
+img {
+  width: 100px;
 }

@@ -1,58 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matheus Ferreira de Araujo</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
-    <header>
-      <h1 class="topo">PORTFÓLIO</h1>
-      <nav>
-        <ul class="menu">
-          <li><a href="#nome">FOTO</a></li>
-          <li><a href="#descricao">SOBRE MIM</a></li>
-          <li><a href="#skills">SKILLS</a></li>
+    <header class="cabecalho">
+      <h1>Portifólio</h1>
+
+      <nav class="menu">
+        <ul>
+          <li><a href="#perfil">Foto</a></li>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#skills">Skills</a></li>
         </ul>
       </nav>
     </header>
 
-    <section id="nome" class="foto">
-      <h2>MATHEUS FERREIRA DE ARAUJO</h2>
-      <a href="foto-tela-cheia.html" title="Link interno">
-        <div class="perfil">
+    <main>
+      <section class="perfil" id="perfil">
+        <h2>Matheus Ferreira de Araujo</h2>
 
-        </div>
-      </a>
-      <p><em>Foto tirada na praia do Rio de Janeiro</em></p>
-    </section>
+        <a href="foto-tela-cheia.html">
+          <div class="foto"></div>
+        </a>
 
-    <section id="descricao" class="sobre">
-      <h2>SOBRE MIM</h2>
-      <p>
-        Tenho 19 anos, nascido em São Paulo, e morando atualmente em
-        Itanhaém, litoral paulista. <br> Gosto de games, ouvir musica e programar. Atualmente estou estudando Desenvolvimento Web na Trybe!! <br> Uma escola de programação que ensina a programar, aprender e a trabalhar!
-      </p>
-      <a href="https://www.betrybe.com/" target="_blank">
-        <img class="trybe-logo" src="images/logo-trybe.png" alt="Link para o site da Trybe">
-      </a>
-    </section>
+        <p>Foto tirada na praia do Rio de Janeiro</p>
+      </section>
 
-    <section id="skills" class="skills">
-      <h2>SKILLS</h2>
-      <p><strong class="bold">HTML:</strong> Linguagem de marcação de hipertexto ou Hyper Text Markup Language. Ela é utilizada como marcação para desenvolver páginas e documentos eletrônicos para a internet.</p>
-      <p><strong class="bold">CSS:</strong>Folha de Estilo em Cascata ou Cascading Style Sheet é o código que permite dar estilo as páginas HTML.</p>
-    </section>
+      <section class="sobre" id="sobre">
+        <h2>Sobre Mim</h2>
 
-    <footer class="rodape">
+        <p>
+          Tenho 19 anos, nascido em São Paulo, e morando atualmente em Itanhaém,
+          litoral paulista. Gosto de games, ouvir musica e programar. Atualmente
+          estou estudando Desenvolvimento Web na Trybe!! Uma escola de
+          programação que ensina a programar, aprender e a trabalhar!
+        </p>
+      </section>
+
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+
+        <p class="html">
+          <strong>Html: </strong>Linguagem de marcação de hipertexto ou Hyper Text Markup Language. Ela é utilizada como marcação para desenvolver páginas e documentos eletrônicos para a internet.
+        </p>
+
+        <p class="css">
+          <strong>Css: </strong>Folha de Estilo em Cascata ou Cascading Style Sheet é o código que permite dar estilo as páginas HTML.
+        </p>
+
+        <p class="javascript">
+          <strong>JavaScript: </strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, voluptate molestias recusandae deleniti iusto magnam ex, animi illum minima sed ipsum soluta eum repellat, eius ipsa culpa accusamus eos quos.
+        </p>
+      </section>
+    </main>
+
+    <footer>
       <a href="https://www.linkedin.com/in/matheus-ferreira-trybe/" target="_blank">
-        <img src="images/logo-linkedin.png" alt="Perfil Linkedin">
+        <img src="images/logo-linkedin.png" alt="Link para o Linkedin">
       </a>
+
       <a href="https://github.com/matheus-ferreira02" target="_blank">
-        <img src="images/logo-github.png" alt="Perfil GitHub"></a>
+        <img src="images/logo-github.png" alt="Link para o GitHub">
+      </a>
     </footer>
   </body>
 </html>
