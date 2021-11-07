@@ -9,6 +9,10 @@
   font-family: Montserrat, Geneva, Tahoma, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .cabecalho {
   display: flex;
   flex-direction: column;
