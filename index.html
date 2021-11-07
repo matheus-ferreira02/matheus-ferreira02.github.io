@@ -1,58 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matheus Ferreira de Araujo</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
-    <header>
-      <h1 class="topo">PORTFÓLIO</h1>
-      <nav>
-        <ul class="menu">
-          <li><a href="#nome">FOTO</a></li>
-          <li><a href="#descricao">SOBRE MIM</a></li>
-          <li><a href="#skills">SKILLS</a></li>
+    <header class="cabecalho">
+      <h1>Portifólio</h1>
+
+      <nav class="menu">
+        <ul>
+          <li><a href="#perfil">Foto</a></li>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#skills">Skills</a></li>
         </ul>
       </nav>
     </header>
 
-    <section id="nome" class="foto">
-      <h2>MATHEUS FERREIRA DE ARAUJO</h2>
-      <a href="foto-tela-cheia.html" title="Link interno">
-        <div class="perfil">
+    <main>
+      <section class="perfil" id="perfil">
+        <h2>Matheus Ferreira de Araujo</h2>
 
+        <a href="foto-tela-cheia.html">
+          <div class="foto"></div>
+        </a>
+
+        <p>Foto tirada na praia do Rio de Janeiro</p>
+      </section>
+
+      <section class="sobre" id="sobre">
+        <h2>Sobre Mim</h2>
+
+        <p>
+          Tenho 19 anos, nascido em São Paulo, e morando atualmente em Itanhaém,
+          litoral paulista. Gosto de games, ouvir musica e programar. Atualmente
+          estou estudando Desenvolvimento Web na Trybe!! Uma escola de
+          programação que ensina a programar, aprender e a trabalhar!
+        </p>
+      </section>
+
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+
+        <div class="html">
+          <i class="fab fa-html5"></i>
+          <button id="button-html">Html<i class="fas fa-angle-right"></i></button
+          >
+          <p id="text-html"> Linguagem de marcação de hipertexto ou Hyper Text Markup Language. Ela é utilizada como marcação para desenvolver páginas e documentos eletrônicos para a internet.</p>
         </div>
-      </a>
-      <p><em>Foto tirada na praia do Rio de Janeiro</em></p>
-    </section>
 
-    <section id="descricao" class="sobre">
-      <h2>SOBRE MIM</h2>
-      <p>
-        Tenho 19 anos, nascido em São Paulo, e morando atualmente em
-        Itanhaém, litoral paulista. <br> Gosto de games, ouvir musica e programar. Atualmente estou estudando Desenvolvimento Web na Trybe!! <br> Uma escola de programação que ensina a programar, aprender e a trabalhar!
-      </p>
-      <a href="https://www.betrybe.com/" target="_blank">
-        <img class="trybe-logo" src="images/logo-trybe.png" alt="Link para o site da Trybe">
-      </a>
-    </section>
+        <div class="css">
+          <i class="fab fa-css3-alt"></i>
+          <button id="button-css">Css<i class="fas fa-angle-right"></i></button>
+          <p id="text-css">
+          Folha de Estilo em Cascata ou Cascading Style Sheet é o código que permite dar estilo as páginas HTML.</p>
+        </div>
 
-    <section id="skills" class="skills">
-      <h2>SKILLS</h2>
-      <p><strong class="bold">HTML:</strong> Linguagem de marcação de hipertexto ou Hyper Text Markup Language. Ela é utilizada como marcação para desenvolver páginas e documentos eletrônicos para a internet.</p>
-      <p><strong class="bold">CSS:</strong>Folha de Estilo em Cascata ou Cascading Style Sheet é o código que permite dar estilo as páginas HTML.</p>
-    </section>
+        <div class="javascript">
+          <i class="fab fa-js-square"></i>
+          <button id="button-js">JavaScript<i class="fas fa-angle-right"></i></button>
+        </div>
+        <p id="text-js"> JavaScript é uma linguagem de script orientada a objetos, multiplataforma. Usado para deixar o site mais dinâmico.</p>
+      </section>
+    </main>
 
     <footer class="rodape">
-      <a href="https://www.linkedin.com/in/matheus-ferreira-trybe/" target="_blank">
-        <img src="images/logo-linkedin.png" alt="Perfil Linkedin">
-      </a>
-      <a href="https://github.com/matheus-ferreira02" target="_blank">
-        <img src="images/logo-github.png" alt="Perfil GitHub"></a>
+      <section class="redes">
+        <a
+          href="https://www.linkedin.com/in/matheus-ferreira-trybe/"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/matheus-ferreira02" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </section>
+
+      <p>Todos os direitos reservados - Matheus Ferreira 2021 &copy;</p>
     </footer>
   </body>
+  <script
+    src="https://kit.fontawesome.com/157ecb221c.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
 </html>
